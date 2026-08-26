@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://pmqjvqcvi5th"]
+
+[ext_resource type="PackedScene" uid="uid://dhrdk7fux1jum" path="res://player.tscn" id="1_80nbo"]
+[ext_resource type="PackedScene" uid="uid://xtcoumrsf4cp" path="res://gui.tscn" id="1_e2o6t"]
+
+[node name="game" type="Node2D" unique_id=1180756559]
+
+[node name="gui" parent="." unique_id=550912494 instance=ExtResource("1_e2o6t")]
+
+[node name="background" type="Polygon2D" parent="." unique_id=1555279797]
+position = Vector2(-864.9995, 94.000244)
+scale = Vector2(6.352796, 7.9798656)
+color = Color(0.29165563, 0.24867463, 0.20153418, 1)
+polygon = PackedVector2Array(-318.53802, -258.54266, -327.53802, 445.45734, 888.462, 457.45734, 878.462, -287.54266)
+
+[node name="player" parent="." unique_id=44068983 instance=ExtResource("1_80nbo")]
+position = Vector2(365, 291)

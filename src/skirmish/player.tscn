@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://dhrdk7fux1jum"]
+
+[node name="player" type="Node2D" unique_id=44068983]
+
+[node name="Polygon2D" type="Polygon2D" parent="." unique_id=1603485275]
+position = Vector2(-16.500006, -137.8125)
+scale = Vector2(0.35000005, 0.3860294)
+polygon = PackedVector2Array(143, 85, 92, 86, 66, 125, 102, 168, 117, 171, 120, 215, 50, 245, 114, 239, 117, 296, 89, 353, 130, 305, 177, 357, 140, 294, 138, 239, 190, 261, 133, 220, 129, 167, 143, 168, 173, 132)
